@@ -35,8 +35,8 @@ const Cards = ({ score, setScore }) => {
     } 
     else
     {
-      setPreviousRef(currentCard.ref);
-      setPreviousIndex(currentCard.index);
+        setPreviousRef(currentCard.ref);
+        setPreviousIndex(currentCard.index);
     }
   };
 
