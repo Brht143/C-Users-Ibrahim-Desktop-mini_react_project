@@ -2,7 +2,7 @@ import pokemon1 from "../images/pokemon1.png";
 import pokemon2 from "../images/pokemon2.png";
 import pokemon3 from "../images/pokemon3.jpg";
 import pokemon4 from "../images/pokemon4.png";
-import pokemon5 from "../images/pokemon5.jpg";
+import pokemon5 from "../images/pokemon5.jpeg";
 import pokemon6 from "../images/pokemon6.jpg";
 import pokemon7 from "../images/pokemon7.avif";
 import pokemon8 from "../images/pokemon8.webp";
@@ -16,7 +16,10 @@ import pokemon15 from "../images/pokemon15.jpg";
 import pokemon16 from "../images/pokemon16.png";
 import pokemon17 from "../images/pokemon17.png";
 import pokemon18 from "../images/pokemon18.jpg";
-import pokemon19 from "../images/pokemon19.jpeg";
+import pokemon19 from '../images/pokemon19.webp';
+import pokemon20 from '../images/pokemon20.webp';
+import pokemon21 from '../images/pokemon21.webp';
+
 
 let pokemons = [
   { ref: 1, className: "card", image: pokemon1 },
@@ -38,6 +41,8 @@ let pokemons = [
   { ref: 17, className: "card", image: pokemon17 },
   { ref: 18, className: "card", image: pokemon18 },
   { ref: 19, className: "card", image: pokemon19 },
+  { ref: 20, className: "card", image: pokemon20 },
+  { ref: 21, className: "card", image: pokemon21 }
 ];
 
 // Math.random to return float number between 0 and 1 // example 0.73
